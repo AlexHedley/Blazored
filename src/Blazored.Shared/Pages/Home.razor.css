@@ -1,0 +1,37 @@
+
+/* Cards */
+
+.card-header, .card-footer {
+    background-color: blue;
+}
+
+.card-header a {
+    font-weight: bold;
+    color: white;
+}
+
+.card-footer {
+    color: white;
+}
+
+.card-topics-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-pill-primary {
+    color: #fff;
+    background-color: blue;
+}
+
+.card-pill-wip {
+    color: #fff;
+    background-color: grey;
+}
+
+.card-pill-archive {
+    color: #fff;
+    background-color: orange;
+}
+
