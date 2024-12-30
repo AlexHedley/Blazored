@@ -20,15 +20,16 @@
                 <p class="card-text">A replacement for the default EditForm component which will auto save a form until it is successfully submitted</p>
 
                 <div class="card-topics-container">
+                    <span class="badge badge-pill card-pill-dark" style="margin-left: 5px">Auto Save</span>
                     <span class="badge badge-pill card-pill-dark" style="margin-left: 5px">Form</span>
                 </div>
 
                 <br />
 
-                <p>
+                @* <p>
                     <a href="https://www.nuget.org/packages/Blazored.AutoSaveEditForm/" target="_blank"><img src="https://img.shields.io/nuget/v/blazored.AutoSaveEditForm.svg?logo=nuget" alt="nuget" /></a>
                     <a href="https://www.nuget.org/packages/Blazored.AutoSaveEditForm/" target="_blank"><img src="https://img.shields.io/nuget/dt/Blazored.AutoSaveEditForm?logo=nuget" alt="nuget" /></a>
-                </p>
+                </p> *@
 
                 <div class="btn-group">
                     <button @onclick="@(() => OpenRepository("AutoSaveEditForm"))" type="button" class="btn btn-sm btn-outline-dark card-button">
@@ -225,50 +226,7 @@
 
         </div>
     </div>
-    
-    <div class="col-md-3" style="margin-bottom: 50px">
-        <!-- Localisation -->
-        <div class="card" style="width: 18rem">
-
-            <img src="/_content/Blazored.Shared/images/Blazored.png" class="card-img-top" alt="Blazored" />
-            <div class="card-header">
-                <a href="Localisation">Localisation</a>
-            </div>
-
-            <div class="card-body">
-                <p class="card-text">A library to provide localisation in client-side Blazor applications</p>
-
-                <div class="card-topics-container">
-                    <span class="badge badge-pill card-pill-archive" style="margin-left: 5px">Archive</span>
-                </div>
-
-                <br />
-
-                <p>
-                    <a href="https://www.nuget.org/packages/Blazored.Localisation/" target="_blank"><img src="https://img.shields.io/nuget/v/blazored.Localisation.svg?logo=nuget" alt="nuget" /></a>
-                    <a href="https://www.nuget.org/packages/Blazored.Localisation/" target="_blank"><img src="https://img.shields.io/nuget/dt/Blazored.Localisation?logo=nuget" alt="nuget" /></a>
-                </p>
-
-                <div class="btn-group">
-                    <button @onclick="@(() => OpenRepository("Localisation"))" type="button" class="btn btn-sm btn-outline-dark card-button">
-                        <i class="bi bi-github"></i> Code
-                    </button>
-                    <button @onclick="@(() => OpenSite("Localisation"))" type="button" class="btn btn-sm btn-outline-dark card-button">
-                        <i class="bi bi-globe"></i> Site
-                    </button>
-                    <button @onclick="@(() => OpenNuGet("Localisation"))" type="button" class="btn btn-sm btn-outline-dark card-button">
-                        <i class="bi bi-microsoft"></i> NuGet
-                    </button>
-                </div>
-            </div>
-
-            <div class="card-footer">
-                <span>Archived</span>
-            </div>
-
-        </div>
-    </div>
-    
+        
     <div class="col-md-3" style="margin-bottom: 50px">
         <!-- LocalStorage -->
         <div class="card" style="width: 18rem">
@@ -528,50 +486,7 @@
 
         </div>
     </div>
-    
-    <div class="col-md-3" style="margin-bottom: 50px">
-        <!-- Typeahead -->
-        <div class="card" style="width: 18rem">
-
-            <img src="/_content/Blazored.Shared/images/Blazored.png" class="card-img-top" alt="Blazored" />
-            <div class="card-header">
-                <a href="Typeahead">Typeahead</a>
-            </div>
-
-            <div class="card-body">
-                <p class="card-text">Typeahead control for Blazor applications</p>
-
-                <div class="card-topics-container">
-                    <span class="badge badge-pill card-pill-archive" style="margin-left: 5px">Archive</span>
-                </div>
-
-                <br />
-
-                <p>
-                    <a href="https://www.nuget.org/packages/Blazored.Typeahead/" target="_blank"><img src="https://img.shields.io/nuget/v/blazored.Typeahead.svg?logo=nuget" alt="nuget" /></a>
-                    <a href="https://www.nuget.org/packages/Blazored.Typeahead/" target="_blank"><img src="https://img.shields.io/nuget/dt/Blazored.Typeahead?logo=nuget" alt="nuget" /></a>
-                </p>
-
-                <div class="btn-group">
-                    <button @onclick="@(() => OpenRepository("Typeahead"))" type="button" class="btn btn-sm btn-outline-dark card-button">
-                        <i class="bi bi-github"></i> Code
-                    </button>
-                    <button @onclick="@(() => OpenSite("Typeahead"))" type="button" class="btn btn-sm btn-outline-dark card-button">
-                        <i class="bi bi-globe"></i> Site
-                    </button>
-                    <button @onclick="@(() => OpenNuGet("Typeahead"))" type="button" class="btn btn-sm btn-outline-dark card-button">
-                        <i class="bi bi-microsoft"></i> NuGet
-                    </button>
-                </div>
-            </div>
-
-            <div class="card-footer">
-                <span>Archived</span>
-            </div>
-
-        </div>
-    </div>
-    
+        
     <div class="col-md-3" style="margin-bottom: 50px">
         <!-- Video -->
         <div class="card" style="width: 18rem">
@@ -614,6 +529,99 @@
 
         </div>
     </div>
+
+</div>
+
+<div class="row">
+
+    <h2>Archived Packages</h2>
+
+    <div class="col-md-3" style="margin-bottom: 50px">
+        <!-- Localisation -->
+        <div class="card" style="width: 18rem">
+
+            <img src="/_content/Blazored.Shared/images/Blazored.png" class="card-img-top" alt="Blazored" />
+            <div class="card-header">
+                <a href="Localisation">Localisation</a>
+            </div>
+
+            <div class="card-body">
+                <p class="card-text">A library to provide localisation in client-side Blazor applications</p>
+
+                <div class="card-topics-container">
+                    <span class="badge badge-pill card-pill-archive" style="margin-left: 5px">Archive</span>
+                </div>
+
+                <br />
+
+                <p>
+                    <a href="https://www.nuget.org/packages/Blazored.Localisation/" target="_blank"><img src="https://img.shields.io/nuget/v/blazored.Localisation.svg?logo=nuget" alt="nuget" /></a>
+                    <a href="https://www.nuget.org/packages/Blazored.Localisation/" target="_blank"><img src="https://img.shields.io/nuget/dt/Blazored.Localisation?logo=nuget" alt="nuget" /></a>
+                </p>
+
+                <div class="btn-group">
+                    <button @onclick="@(() => OpenRepository("Localisation"))" type="button" class="btn btn-sm btn-outline-dark card-button">
+                        <i class="bi bi-github"></i> Code
+                    </button>
+                    <button @onclick="@(() => OpenSite("Localisation"))" type="button" class="btn btn-sm btn-outline-dark card-button">
+                        <i class="bi bi-globe"></i> Site
+                    </button>
+                    <button @onclick="@(() => OpenNuGet("Localisation"))" type="button" class="btn btn-sm btn-outline-dark card-button">
+                        <i class="bi bi-microsoft"></i> NuGet
+                    </button>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                <span>Archived</span>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-md-3" style="margin-bottom: 50px">
+        <!-- Typeahead -->
+        <div class="card" style="width: 18rem">
+
+            <img src="/_content/Blazored.Shared/images/Blazored.png" class="card-img-top" alt="Blazored" />
+            <div class="card-header">
+                <a href="Typeahead">Typeahead</a>
+            </div>
+
+            <div class="card-body">
+                <p class="card-text">Typeahead control for Blazor applications</p>
+
+                <div class="card-topics-container">
+                    <span class="badge badge-pill card-pill-archive" style="margin-left: 5px">Archive</span>
+                </div>
+
+                <br />
+
+                <p>
+                    <a href="https://www.nuget.org/packages/Blazored.Typeahead/" target="_blank"><img src="https://img.shields.io/nuget/v/blazored.Typeahead.svg?logo=nuget" alt="nuget" /></a>
+                    <a href="https://www.nuget.org/packages/Blazored.Typeahead/" target="_blank"><img src="https://img.shields.io/nuget/dt/Blazored.Typeahead?logo=nuget" alt="nuget" /></a>
+                </p>
+
+                <div class="btn-group">
+                    <button @onclick="@(() => OpenRepository("Typeahead"))" type="button" class="btn btn-sm btn-outline-dark card-button">
+                        <i class="bi bi-github"></i> Code
+                    </button>
+                    <button @onclick="@(() => OpenSite("Typeahead"))" type="button" class="btn btn-sm btn-outline-dark card-button">
+                        <i class="bi bi-globe"></i> Site
+                    </button>
+                    <button @onclick="@(() => OpenNuGet("Typeahead"))" type="button" class="btn btn-sm btn-outline-dark card-button">
+                        <i class="bi bi-microsoft"></i> NuGet
+                    </button>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                <span>Archived</span>
+            </div>
+
+        </div>
+    </div>
+
 
 </div>
 
