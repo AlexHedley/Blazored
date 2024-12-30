@@ -81,3 +81,8 @@
         overflow-y: auto;
     }
 }
+
+/* Sorry */
+.icon-fix {
+    margin-top: -25px;
+}

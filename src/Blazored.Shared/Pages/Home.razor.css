@@ -2,7 +2,7 @@
 /* Cards */
 
 .card-header, .card-footer {
-    background-color: blue;
+    background-color: rgb(60, 60, 60);
 }
 
 .card-header a {
@@ -20,9 +20,14 @@
     flex-wrap: wrap;
 }
 
-.card-pill-primary {
+/* .card-pill-primary {
     color: #fff;
     background-color: blue;
+} */
+
+.card-pill-dark {
+    color: #fff;
+    background-color: black;
 }
 
 .card-pill-wip {
