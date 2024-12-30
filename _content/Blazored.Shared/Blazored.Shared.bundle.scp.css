@@ -160,12 +160,17 @@ main[b-tx0j33ijkv] {
         overflow-y: auto;
     }
 }
+
+/* Sorry */
+.icon-fix[b-lfez34hhyv] {
+    margin-top: -25px;
+}
 /* _content/Blazored.Shared/Pages/Home.razor.rz.scp.css */
 
 /* Cards */
 
 .card-header[b-u11yeikc1r], .card-footer[b-u11yeikc1r] {
-    background-color: blue;
+    background-color: rgb(60, 60, 60);
 }
 
 .card-header a[b-u11yeikc1r] {
@@ -183,9 +188,14 @@ main[b-tx0j33ijkv] {
     flex-wrap: wrap;
 }
 
-.card-pill-primary[b-u11yeikc1r] {
+/* .card-pill-primary {
     color: #fff;
     background-color: blue;
+} */
+
+.card-pill-dark[b-u11yeikc1r] {
+    color: #fff;
+    background-color: black;
 }
 
 .card-pill-wip[b-u11yeikc1r] {
